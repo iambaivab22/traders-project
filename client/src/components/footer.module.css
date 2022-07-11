@@ -1,0 +1,40 @@
+.container {
+  height: 40vh;
+  width: 100%;
+  background-color: #1c8b98;
+  margin-top: 30px;
+  position: relative;
+}
+.logo {
+  height: 80%;
+  margin-left: 20px;
+  width: 150px;
+}
+.logo img {
+  margin-top: 10px;
+  height: 40%;
+  width: 150px;
+}
+.logo h2 {
+  color: white;
+  margin-top: 0;
+}
+.copyright {
+  text-align: center;
+  color: white;
+}
+.details {
+  display: grid;
+  position: absolute;
+  grid-template-columns: 1fr 1fr;
+  top: 0;
+  right: 0;
+  width: 70%;
+}
+.links li {
+  list-style-type: none;
+}
+.address {
+  color: white;
+  margin-top: 20px;
+}

@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+.table td, .table th {
+border: 1px solid #ddd;
+padding:8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #4CAF50;
+color: white;
+}
+
+.single_market_container{
+  display: flex;
+  margin-top:5vh;
+}
+.companyTable{
+  width: 35%;
+}
+.companyTable .table th{
+  width: 50%;
+}
+/* ***************Search Component in Navigation Bar***************** */
+
+.search input{
+  border: none;
+  border-radius:8px;
+  padding: 8px;
+}
+.search input:focus{
+  border:none;
+  outline: none;
+}
+
+/* ****************Search Component in Navigation Bar**************** */
+
+
+/* ****************Chart Component in Individual Company Page************************* */
+
+.chart{
+  width: 63%;
+  margin-left: 12px;
+}
+
+/* ****************Chart Component in Individual Company Page************************* */

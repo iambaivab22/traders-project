@@ -1,0 +1,13 @@
+.main-body{
+    position: relative;
+    width: 80%;
+    margin: auto 10%;
+    display: flex;
+}
+.main-body-news{
+    width: 70%;
+}
+.main-body-market{
+    width: 30%;
+    margin-left:10px;
+}
